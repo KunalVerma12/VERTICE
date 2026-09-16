@@ -1,0 +1,17 @@
+name: react-vite
+version: "1.0.0"
+language: typescript
+framework: react
+description: Production-ready React application template using Vite
+
+variables:
+  - name: service_name
+    required: true
+    description: Unique name of the service
+  - name: owner
+    required: true
+    description: Team or individual owner of the service
+  - name: description
+    required: false
+    description: Brief description of the service
+    default: "A frontend application built with React and Vite on Vértice."

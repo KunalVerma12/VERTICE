@@ -1,0 +1,17 @@
+name: node-express
+version: "1.0.0"
+language: javascript
+framework: express
+description: Production-ready Node.js Express service template
+
+variables:
+  - name: service_name
+    required: true
+    description: Unique name of the service
+  - name: owner
+    required: true
+    description: Team or individual owner of the service
+  - name: description
+    required: false
+    description: Brief description of the service
+    default: "A microservice built with Node.js and Express on Vértice."
